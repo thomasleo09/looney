@@ -1,0 +1,18 @@
+<body>
+    <div class="Character">
+        <div class="ColorSubtitle">
+            <h1>{{character.name}} Details</h1>
+        </div>
+        <div class="ColorText">
+            <div><span>id: </span>{{character.id}}</div>
+            <div><span>name: </span>{{character.name}}</div>
+        </div>
+        <div class="Image">
+        </div>
+            <img src="https://png.vector.me/files/images/1/2/123022/bugs_bunny.jpg" alt="Bugs Bunny" width="200" height="270">
+        <div class="ColorText">
+            <label for="name">Character name: </label>
+            <input id="name" [(ngModel)]="character.name" placeholder="name">
+          </div>
+    </div>
+</body>

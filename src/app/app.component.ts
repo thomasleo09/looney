@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CharactersComponent } from './characters/characters.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'The-Looney-Tunes-Show';
+  title = 'The Looney Tunes Show';
 }
